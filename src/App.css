@@ -13,10 +13,94 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(7px + 1.4vmin);
   color: white;
 }
 
 .App-link {
   color: #09d3ac;
+}
+
+.pokedex-container {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.pokeCard-container {
+  width: 23%;
+  margin: 24px 1%;
+  cursor: pointer;
+}
+
+.pokeCard-avatar {
+  width: 100%;
+  height: 0px;
+  padding-top: 100%;
+  border-radius: 5px;
+  background-color: #F2F2F2;
+  background-position: center;
+  background-size: contain;
+}
+
+.pokeCard-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.pokeCard-name {
+  margin: 4px 0px;
+  font-size: 1.2em;
+  font-weight: 600;
+}
+
+.pokeCard-type-container {
+  display: flex;
+}
+
+.pokeCard-type {
+  font-size: 0.75em;
+  margin: 3px;
+  width: 6em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 3px;
+  font-weight: 600;
+}
+
+.grass {
+  background-color: #9bcc50;
+  color: black;
+}
+
+.poison {
+  background-color: #b97fc9;
+  color: white;
+}
+
+.fire {
+  background-color: #fd7d24;
+  color: white;
+}
+
+.flying {
+  background-color: #e9e9e9;
+  color: black;
+}
+
+.water {
+  background-color: #4592c4;
+  color: white;
+}
+
+.electric {
+  background-color: #eed535;
+  color: black;
+}
+
+.normal {
+  background-color: #a4acaf;
+  color: black;
 }
